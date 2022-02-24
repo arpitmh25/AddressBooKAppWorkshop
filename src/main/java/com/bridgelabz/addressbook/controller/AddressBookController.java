@@ -4,7 +4,7 @@ package com.bridgelabz.addressbook.controller;
 import com.bridgelabz.addressbook.dto.AddressBookDTO;
 import com.bridgelabz.addressbook.dto.ResponseDTO;
 import com.bridgelabz.addressbook.model.AddressBook;
-import com.bridgelabz.addressbook.service.AddressBookService;
+import com.bridgelabz.addressbook.service.IAddressBookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +18,7 @@ import java.util.List;
 public class AddressBookController {
 
     @Autowired
-    AddressBookService service;
+    IAddressBookService service;
 
     // //Print welcome message
     @GetMapping("")
