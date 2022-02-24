@@ -10,7 +10,7 @@ public class ResponseDTO {
         this.message = message;
         this.data = data;
     }
-
+    //Created getter and setter
     public String getMessage() {
         return message;
     }

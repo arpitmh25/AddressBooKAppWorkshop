@@ -20,12 +20,11 @@ public class AddressBookController {
     @Autowired
     AddressBookService service;
 
-    //Print welcome message
+    // //Print welcome message
     @GetMapping("")
-    public String getMessage() {
-        return "Welcome to Addressbook App";
+    public String welcomeUser() {
+        return "Welcome to  addressbook app developement";
     }
-
     //Get all the addresses present in addressbook
     @GetMapping("/get")
     public ResponseEntity<String> getAllData() {

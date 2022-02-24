@@ -50,7 +50,7 @@ public class AddressBook {
         this.state = addressBookDTO.getState();
         this.zip = addressBookDTO.getZip();
     }
-
+    //default class
     public AddressBook() {
         super();
     }
